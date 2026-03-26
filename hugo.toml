@@ -1,0 +1,40 @@
+baseURL = 'https://7RACC00KE1.github.io/'
+defaultContentLanguage = 'zh'
+title = '不便利店'
+theme = "github-style"
+staticDir = "static"
+
+[languages]
+  [languages.zh]
+    contentDir = 'content/zh'
+    languageName = '中文'
+    title = '不便利店'
+    weight = 1
+
+[params]
+  author = "Yuya"
+  description = "洗奶罩的"
+  github = "7RACC00KE1"
+  email = "yougaiqi@gmail"
+  keywords = "7, 1, 1"
+  rss = true
+  userStatusEmoji = "🦝"
+  favicon = "/images/github-mark.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/github-mark-white.png"
+  location = "ANGSU"
+  enableGitalk = false
+  custom_css = []
+  custom_js = []
+  enableSearch = true
+
+  galleryRepoOwner = ""
+  galleryRepoName = ""
+  galleryRepoBranch = "main"
+  galleryPath = "gallery"
+  galleryIndexFile = "index.json"
+  galleryEnabled = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+ 
