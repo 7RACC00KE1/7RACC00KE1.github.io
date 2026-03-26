@@ -15,7 +15,7 @@ staticDir = "static"
   author = "Yuya"
   description = "洗奶罩的"
   github = "7RACC00KE1"
-  email = "yougaiqi@gmail"
+  email = "yougaiqi@gmail.com"
   keywords = "7, 1, 1"
   rss = true
   userStatusEmoji = "🦝"
@@ -24,7 +24,7 @@ staticDir = "static"
   headerIcon = "/images/github-mark-white.png"
   location = "ANGSU"
   enableGitalk = false
-  custom_css = []
+  custom_css = ["css/custom.css"]
   custom_js = []
   enableSearch = true
 
@@ -37,4 +37,3 @@ staticDir = "static"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
- 
